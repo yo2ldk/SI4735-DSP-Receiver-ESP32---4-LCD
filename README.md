@@ -17,7 +17,7 @@ Modified sketch for TFT LCD 4" controller ILI9488
     Updates:                                    
  
               -  Added  on screen the battery voltage (V) and have colour changed  (green full, yellow - middle, red - lower..so on 4 steps)
-              -  The latest ino file "SI4735-DSP-Receiver-ESP32---4-LCD+RDS_info" is updated with the code from Antonino Russo
+              -  The latest ino file "SI4735-DSP-Receiver-ESP32---4-LCD+RDS_info" is updated with the code from Antonino Russo -IU4ALH 
                    (please copy all files in the folder just new created )
   
   The radio is fully controlled by the (Touch)Screen and Rotary Encoder on ESP32 core
