@@ -2253,13 +2253,9 @@ void DisplayRDS()  {
     if ( currentFrequency != previousFrequency ) {
       previousFrequency = currentFrequency;
       tft.fillRect(XFreqDispl + 86, YFreqDispl + 67, 120, 35, TFT_BLACK);                                                          
-
-     // tft.fillRect(0, YFreqDispl + 90, 480, 15, TFT_BLACK);// clear RDS rdsMsg  ANTONINO
-     // tft.fillRect(415, YFreqDispl + 70, 80, 15, TFT_BLACK);     // clear rds  time 
-      
     }
-    if ((RDS) and  (NewSNR >= 5)) checkRDS();    // 9 ERA 12
-    else  tft.fillRect(XFreqDispl + 70, YFreqDispl + 67, 120, 35, TFT_BLACK); // clear RDS text             
+    if ((RDS) and  (NewSNR >= 7)) checkRDS(); 
+    else  tft.fillRect(XFreqDispl + 70, YFreqDispl + 67, 120, 35, TFT_BLACK);           
   }
 }
 
