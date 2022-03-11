@@ -11,10 +11,10 @@ Modified sketch for TFT LCD 4" controller ILI9488
     This sketch sketch is based on:  -  the new version V3.5.of Gert Baak - PE0MGB V3.5;
                                      -  si4735 Library of Ricardo PU2CLR. Thanks for the very nice work.  
                                      -  V3.2.3  29-09-2021 Added Sprite buttons from Jim Yasuda.
-                                     - S-meter from Antonino Russo
+                                     - S-meter from Antonino Russo - IU4ALH
              This can be improved by someone with more experience than me, I'm just beginner; more to hardware oriented, than programming...   :)                    
                                      
-         Updates:                                    
+    Updates:                                    
  
               -  Added  on screen the battery voltage (V) and have colour changed  (green full, yellow - middle, red - lower..so on 4 steps)
               -  The latest ino file "SI4735-DSP-Receiver-ESP32---4-LCD+RDS_info" is updated with the code from Antonino Russo
