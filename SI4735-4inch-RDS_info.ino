@@ -21,7 +21,7 @@
 //  The configuration setup-file: _ILI9488 diver ris also included.
 //  Maybe it have max two minor bugs, but is a start for everyone who need that.
 //             You are FREE to modify how you need it !
-//  I will be focussed now on the Frank Oevenswood sketch, because I love that old retro look..
+//  I will be focussed now on the Bernard Binns  sketch, because I love that old retro look..
 //
 //                           Thank you to all who make this project possible,
 //                       and for their hard work and many hours to write the code !!!
