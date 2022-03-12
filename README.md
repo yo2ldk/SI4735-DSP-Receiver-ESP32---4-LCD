@@ -9,12 +9,12 @@ Modified sketch for TFT LCD 4" controller ILI9488
 
 
            This sketch sketch is based on:
-//                                        the new version V3.5.of Gert Baak - PE0MGB V3.5;
-//                                        si4735 Library of Ricardo PU2CLR. Thanks for the very nice work.  
-//                                        V3.2.3  29-09-2021 Added Sprite buttons from Jim Yasuda.
-//                                        RDS Info text+Time & S-meter mod by Antonino Russo - IU4ALH 
-//
-//                            Thank you all for hard work and many hours  to complete this nice radio project  ! 
+                                        the new version V3.5.of Gert Baak - PE0MGB V3.5;
+                                        si4735 Library of Ricardo PU2CLR. Thanks for the very nice work.  
+                                        V3.2.3  29-09-2021 Added Sprite buttons from Jim Yasuda.
+                                        RDS Info text+Time & S-meter mod by Antonino Russo - IU4ALH 
+
+                            Thank you all for hard work and many hours  to complete this nice radio project  ! 
            Also, this can be improved by someone with more experience than me, I'm just beginner; more to hardware oriented, than programming...   :)                    
                                      
     Updates:                                    
