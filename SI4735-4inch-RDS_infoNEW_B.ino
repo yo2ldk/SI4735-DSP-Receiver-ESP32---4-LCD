@@ -2307,7 +2307,7 @@ void showRSSI() {
     tft.setTextDatum(TL_DATUM);
     tft.drawString("RSSI = " + String(NewRSSI) + "dBuV" , 5,  215);            
     tft.setTextDatum(TR_DATUM);
-    tft.drawString("SNR = " + String(NewSNR) + "dB", 305, 215);                  
+    tft.drawString("SNR = " + String(NewSNR) + "dB", 295, 215);                  
   }
   VOLbutoff();
 }
