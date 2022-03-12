@@ -1384,7 +1384,7 @@ void Smeter() {
   if (currentMode != FM) {
     //dBuV to S point conversion HF
     if ((rssi >= 0) and (rssi <=  1)) spoint =  12;                    // S0
-    if ((rssi >  1) and (rssi <=  1)) spoint =  24;                    // S1
+    if ((rssi >  1) and (rssi <=  2)) spoint =  24;                    // S1
     if ((rssi >  2) and (rssi <=  3)) spoint =  36;                    // S2
     if ((rssi >  3) and (rssi <=  4)) spoint =  48;                    // S3
     if ((rssi >  4) and (rssi <= 10)) spoint =  48 + (rssi - 4) * 2;   // S4
@@ -1428,7 +1428,7 @@ void Smeter() {
   }
 
   for (int i = 0; i < 19; i++) 
-    tft.fillRect(Xsmtr + 35 + (i * 12), Ysmtr + 25, 3, 10, TFT_BLACK); 
+    tft.fillRect(Xsmtr + 32 + (i * 12), Ysmtr + 25, 3, 13, TFT_BLACK); 
   tft.fillRect(Xsmtr + 37 + spoint, Ysmtr + 25 , 226 - (2 + spoint), 11, TFT_BLACK);
 }
 
