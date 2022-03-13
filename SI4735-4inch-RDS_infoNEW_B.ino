@@ -3100,7 +3100,7 @@ void FreqDispl() {
         tft.setTextSize(2);
         tft.setTextColor(COLOR_INDICATOR_FREQ, TFT_BLACK);
         tft.setFreeFont(NULL);
-        tft.drawString("MHz", XFreqDispl + 270, YFreqDispl + 54);                                            
+        tft.drawString("MHz", XFreqDispl + 250, YFreqDispl + 54);                                            
       }
       if (currentMode == LSB || currentMode == USB  || currentMode == CW ) {                                    
         if (bfoOn) {
@@ -3179,11 +3179,11 @@ void SeekFreq (uint16_t freq)  {
       tft.setTextSize(1);
       tft.setTextColor(COLOR_INDICATOR_FREQ, COLOR_BACKGROUND);
       tft.setFreeFont(&DSEG7_Classic_Mini_Bold_Italic_52);
-      tft.drawString(String(Displayfreq, 0), XFreqDispl + 110, YFreqDispl + 54);
+      tft.drawString(String(Displayfreq, 0), XFreqDispl + 120, YFreqDispl + 54);
       tft.setTextSize(2);
       tft.setTextColor(TFT_YELLOW, TFT_BLACK);
       tft.setFreeFont(NULL);
-      tft.drawString("KHz", XFreqDispl + 270, YFreqDispl + 54);
+      tft.drawString("KHz", XFreqDispl + 250, YFreqDispl + 54);
     }
     if (band[bandIdx].bandType == FM_BAND_TYPE) {
       Displayfreq =  currentFrequency / 100;
@@ -3202,11 +3202,11 @@ void SeekFreq (uint16_t freq)  {
       tft.setTextColor(COLOR_INDICATOR_FREQ, COLOR_BACKGROUND);
       tft.setTextDatum(BC_DATUM);
       tft.setFreeFont(&DSEG7_Classic_Mini_Bold_Italic_52);
-      tft.drawString(String(Displayfreq, 3), XFreqDispl + 260, YFreqDispl + 54);          
+      tft.drawString(String(Displayfreq, 3), XFreqDispl + 120, YFreqDispl + 54);          
       tft.setTextSize(2);
       tft.setTextColor(COLOR_INDICATOR_FREQ, TFT_BLACK);
       tft.setFreeFont(NULL);
-      tft.drawString("MHz", XFreqDispl + 300, YFreqDispl + 54);
+      tft.drawString("MHz", XFreqDispl + 250, YFreqDispl + 54);
     }
   }
 }
