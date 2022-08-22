@@ -1,5 +1,5 @@
 # SI4735-DSP-Receiver-ESP32---4-LCD
-Modified sketch for TFT LCD 4" controller ILI9488
+Modified sketch for TFT LCD 4" controller ILI9488  and si5351 version !!!   (if you have cristal, modify in sketch..)
 
   
 
