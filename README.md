@@ -30,10 +30,21 @@ Modified sketch for TFT LCD 4" controller ILI9488  and si5351 version !!!   (if 
   The configuration setup-file: _ILI9488 driver is also included.
   Maybe it have max two minor bugs, but is a start for everyone who need that.
              You are FREE to modify how you need it !
- 
-
-                          Thank you to all who make this project possible,
-                       and for their hard work and many hours to write the code !!!
 
 
                           Please unzip the TFT_eSPI folder, inside of sketch folder !!
+
+
+
+Special thanks to:  
+ 
+Ricardo Lima Caratti - PU2CLR - for library and Facebook group support;
+Gert Baak - PE0MGB - for his firmware; which is the basis of the other versions ;
+Mr. Binns - for excellent and so nice retro page;
+Antonino Russo - IU4ALH my friend, - for his work to add Full RDS support;
+Jim Yasuda - for the nice 3D buttons 
+and to all  who have contributions to the development of this beautiful project.
+
+my best regards and 73 too all !
+
+
